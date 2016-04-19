@@ -1,0 +1,31 @@
+{
+  "name": "MovieDatabase",
+  "main": "index.html",
+  "description": "codecentric MovieDatabase App",
+  "contributors": [
+    {
+      "name": "Ansgar Schulte",
+      "email": "ansgar.schulte@codecentric.de"
+    }
+  ],
+  "scripts": {
+    "preinstall": "(npm list grunt-cli -g || npm install grunt-cli -g) && (npm list ionic -g || npm install ionic -g) && (npm list cordova -g || npm install cordova -g)  && (sudo gem install xcodeproj)"
+  },
+  "devDependencies": {
+    "cca": "^0.7.4",
+    "cordova": "^5.3.1",
+    "grunt": "^0.4.4",
+    "grunt-bg-shell": "^2.3.1",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-cordovacli": "^0.8.2",
+    "grunt-execute": "^0.2.2",
+    "grunt-notify": "^0.2.20",
+    "grunt-open": "^0.2.3",
+    "grunt-plistbuddy": "^0.1.1",
+    "grunt-string-replace": "^1.2.0",
+    "requirejs": "^2.1.11",
+    "ios-sim": "^5.0.8",
+    "lodash": "^2.4.1",
+    "matchdep": "^0.3.0"
+  }
+}
